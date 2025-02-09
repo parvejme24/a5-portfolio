@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import Link from "next/link";
 
@@ -52,10 +52,10 @@ export default function AboutMe() {
           {/* See More Button */}
           <p className="mt-5">
             <Link
-              href={"/about"}
-              className="w-[140px] text-[#E58FFF] border border-[#E58FFF] px-6 py-3 font-bold rounded-full flex justify-center items-center gap-2 transition duration-300 hover:bg-gradient-to-r from-[#E58FFF] to-[#8A4FFF] hover:text-white"
+              href={"/contact"}
+              className="w-[180px] text-[#E58FFF] border border-[#E58FFF] px-6 py-3 font-bold rounded-full flex justify-center items-center gap-2 transition duration-300 hover:bg-gradient-to-r from-[#E58FFF] to-[#8A4FFF] hover:text-white"
             >
-              See More
+              Contact Me
             </Link>
           </p>
         </div>

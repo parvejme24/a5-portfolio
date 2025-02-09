@@ -23,16 +23,21 @@
   "@heroui/theme": "2.4.5",
   "@react-aria/ssr": "3.9.7",
   "@react-aria/visually-hidden": "3.8.18",
+  "@react-google-maps/api": "^2.20.5",
   "@react-icons/all-files": "^4.1.0",
   "clsx": "2.1.1",
   "framer-motion": "11.13.1",
   "intl-messageformat": "^10.5.0",
   "next": "15.0.4",
   "next-themes": "^0.4.4",
+  "particles-bg": "^2.5.5",
   "react": "18.3.1",
   "react-dom": "18.3.1",
+  "react-hook-form": "^7.54.2",
   "react-icons": "^5.4.0",
-  "swiper": "^11.2.2"
+  "react-tsparticles": "^2.12.2",
+  "swiper": "^11.2.2",
+  "tsparticles": "^3.8.1"
  },
  "devDependencies": {
   "@next/eslint-plugin-next": "15.0.4",

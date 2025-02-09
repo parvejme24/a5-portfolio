@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+.float-label-input {
+  margin: 0;
+}
+
+.float-label-input:focus-within label,
+.float-label-input input:not(:placeholder-shown) + label {
+  transform: translateY(-1.5rem) scale(0.75);
+  background-color: #181818;
+}
+
+/* login register page bg  */
+.particles-bg-canvas-self {
+  background: #101010;
+}
+
 /* swiper bullet styles  */
 
 .swiper-pagination-bullet {
