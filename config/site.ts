@@ -109,6 +109,62 @@ export const siteConfig = {
       level: "50",
     },
   ],
+  reviews: [
+    {
+      name: "Md Parvej",
+      role: "Full Stack Developer",
+      rating: 4.9,
+      image:
+        "https://parvejbd.vercel.app/_next/image?url=%2Fimages%2Fprofile2.png&w=640&q=75",
+      testimonial:
+        "This platform has been a game changer for me. The user experience is top-notch, and I have learned so much!",
+    },
+    {
+      name: "Nusrat Jahan",
+      role: "UI/UX Designer",
+      rating: 4.8,
+      image:
+        "https://parvejbd.vercel.app/_next/image?url=%2Fimages%2Fprofile2.png&w=640&q=75",
+      testimonial:
+        "I love the seamless design and ease of navigation. It has greatly improved my productivity!",
+    },
+    {
+      name: "Rafsan Jani",
+      role: "Software Engineer",
+      rating: 5.0,
+      image:
+        "https://parvejbd.vercel.app/_next/image?url=%2Fimages%2Fprofile2.png&w=640&q=75",
+      testimonial:
+        "The best learning experience I have ever had! The resources are well-organized and super helpful.",
+    },
+    {
+      name: "Fatima Akter",
+      role: "Data Analyst",
+      rating: 4.7,
+      image:
+        "https://parvejbd.vercel.app/_next/image?url=%2Fimages%2Fprofile2.png&w=640&q=75",
+      testimonial:
+        "A fantastic platform for gaining new skills! I highly recommend it to anyone looking to upskill.",
+    },
+    {
+      name: "Samiul Haque",
+      role: "Mobile App Developer",
+      rating: 4.9,
+      image:
+        "https://parvejbd.vercel.app/_next/image?url=%2Fimages%2Fprofile2.png&w=640&q=75",
+      testimonial:
+        "I love how interactive and engaging the content is. The instructors are also very knowledgeable.",
+    },
+    {
+      name: "Maliha Rahman",
+      role: "Cyber Security Specialist",
+      rating: 4.8,
+      image:
+        "https://parvejbd.vercel.app/_next/image?url=%2Fimages%2Fprofile2.png&w=640&q=75",
+      testimonial:
+        "The practical exercises and projects make learning so much easier. I feel more confident in my skills now.",
+    },
+  ],
   links: {
     github: "https://github.com/heroui-inc/heroui",
     twitter: "https://twitter.com/hero_ui",
