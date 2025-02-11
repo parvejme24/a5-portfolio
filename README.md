@@ -1,53 +1,92 @@
-# Next.js & HeroUI Template
+# Personal Portfolio & Blog Website
 
-This is a template for creating applications using Next.js 14 (app directory) and HeroUI (v2).
+## 🚀 Live Demo
+[🔗 mdparvej.vercel.app](https://mdparvej.vercel.app/)
 
-[Try it on CodeSandbox](https://githubbox.com/heroui-inc/heroui/next-app-template)
+## 📂 Repository
+[🔗 GitHub Repository](https://github.com/parvejme24/a5-portfolio.git)
 
-## Technologies Used
+## 🎯 Project Overview
+This project is a personal portfolio and blog website built with **Next.js** and **TypeScript**, featuring dynamic routing, authentication, API integration, and a fully functional dashboard for managing blogs, projects, and messages.
 
-- [Next.js 14](https://nextjs.org/docs/getting-started)
-- [HeroUI v2](https://heroui.com/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [next-themes](https://github.com/pacocoursey/next-themes)
+## 🛠️ Features
+### 🌍 Public Pages
+- **Home Page (`/`)**  
+  - Portfolio introduction (name, bio, profile picture)
+  - Skills section (icons/skill bar)
+  - Featured projects (static/API-based)
+  - Resume download button
+- **Projects Page (`/projects`)**  
+  - Displays all projects with images, descriptions, and links
+  - Clicking a project opens its detailed page (`/projects/[id]`)
+- **Blog Page (`/blog`)**  
+  - Displays a list of blogs (fetched from API/JSON file)
+  - Clicking a blog opens a detailed blog page (`/blog/[id]`)
+- **Contact Page (`/contact`)**  
+  - Contact form (name, email, message)
+  - Messages saved to database/local storage
 
-## How to Use
+### 🔒 Dashboard (Authenticated Users Only)
+- **Login (`/dashboard`)**  
+  - Social authentication using **NextAuth**
+- **Blog Management (`/dashboard/blogs`)**  
+  - Create, read, update, delete (CRUD) blogs
+  - Fields: title, content, image, category
+- **Project Management (`/dashboard/projects`)**  
+  - CRUD operations for projects
+  - Fields: title, description, image, live link
+- **Message Management (`/dashboard/messages`)**  
+  - View messages from contact form
 
-### Use the template with create-next-app
+## 🔧 Tech Stack
+### Frontend
+- **Next.js** (TypeScript)
+- **Tailwind CSS** (Styling)
+- **Framer Motion** (Animations)
+- **NextAuth** (Authentication)
+- **Markdown Support** (For blogs)
 
-To create a new project based on this template using `create-next-app`, run the following command:
+### Backend
+- **Node.js & Express.js** (REST API)
+- **MongoDB & Mongoose** (Database)
+- **Next.js API Routes** (Optional API integration)
 
+### Deployment
+- **Vercel** (Frontend & Backend)
+
+## 📜 Installation & Setup
 ```bash
-npx create-next-app -e https://github.com/heroui-inc/next-app-template
+# Clone the repository
+git clone https://github.com/parvejme24/a5-portfolio.git
+cd a5-portfolio
+
+# Install dependencies
+yarn install  # or npm install
+
+# Create a .env file and add environment variables
+NEXT_PUBLIC_API_URL=your_backend_url
+NEXTAUTH_URL=http://localhost:3000
+database_url=your_mongodb_connection_string
+
+# Start the development server
+yarn dev  # or npm run dev
 ```
 
-### Install dependencies
-
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
-
-```bash
-npm install
+## 🏗️ Folder Structure
+```
+📂 a5-portfolio
+├── 📂 components    # Reusable UI components
+├── 📂 pages         # Next.js pages
+│   ├── 📂 api      # API routes
+│   ├── 📂 blog     # Blog pages
+│   ├── 📂 dashboard # Admin dashboard
+│   ├── 📂 projects  # Project pages
+│   └── index.tsx   # Home page
+├── 📂 public        # Static assets
+├── 📂 styles        # Tailwind/global styles
+├── 📂 utils         # Helper functions
+└── 📜 README.md     # Project documentation
 ```
 
-### Run the development server
-
-```bash
-npm run dev
-```
-
-### Setup pnpm (optional)
-
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
-
-```bash
-public-hoist-pattern[]=*@heroui/*
-```
-
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
-
-## License
-
-Licensed under the [MIT license](https://github.com/heroui-inc/next-app-template/blob/main/LICENSE).
+---
+### 🛠️ Developed by [MD Parvej](https://mdparvej.vercel.app/)
